@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Gamerlar İçin Canlı Sohbet</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo">
+				<img src="logo.png" alt="Gamerlar İçin Canlı Sohbet">
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="#">Oyunlar</a></li>
+					<li><a href="#">Sohbet</a></li>
+					<li><a href="#">Oylama</a></li>
+					<li><a href="#">Hakkımızda</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<section class="chat">
+			<h1>Gamerlar İçin Canlı Sohbet</h1>
+			<div class="chat-container">
+				<div class="chat-box">
+					<div class="chat-message">
+						<p class="sender">Ahmet</p>
+						<p class="message-text">Merhaba arkadaşlar, bugün hangi oyunu oynuyorsunuz?</p>
+						<p class="message-time">12:30</p>
+					</div>
+					<div class="chat-message">
+						<p class="sender">Mehmet</p>
+						<p class="message-text">Ben bugün Fortnite oynuyorum, sen hangisini oynuyorsun?</p>
+						<p class="message-time">12:32</p>
+					</div>
+					<div class="chat-message">
+						<p class="sender">Ahmet</p>
+						<p class="message-text">Ben de Valorant oynuyorum, aramıza katılabilirsin.</p>
+						<p class="message-time">12:33</p>
+					</div>
+				</div>
+			

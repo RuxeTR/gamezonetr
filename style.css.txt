@@ -1,0 +1,138 @@
+/* Arka plan ve yazı stilleri */
+body {
+  background-color: #252627;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Ana başlık stilleri */
+.header {
+  background-color: #191b1d;
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Canlı sohbet kutusu stilleri */
+.chatbox {
+  background-color: #252627;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: 500px;
+  z-index: 1;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid #444;
+}
+
+.chatbox .header {
+  background-color: #191b1d;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.chatbox .messages {
+  overflow-y: scroll;
+  height: 375px;
+  padding: 0.5rem;
+}
+
+.chatbox .input {
+  background-color: #191b1d;
+  padding: 0.5rem;
+}
+
+.chatbox .input input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Canlı sohbet mesaj stilleri */
+.message {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.message .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.message .avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+.message .content {
+  margin-left: 50px;
+  padding: 0.5rem;
+  background-color: #343537;
+  border-radius: 5px;
+}
+
+.message .content p {
+  margin: 0;
+}
+
+/* Kullanıcı listesi stilleri */
+.userlist {
+  background-color: #343537;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 500px;
+  z-index: 1;
+  overflow: hidden;
+  border-top-right-radius: 5px;
+  border: 1px solid #444;
+}
+
+.userlist .header {
+  background-color: #191b1d;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.userlist ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.userlist ul li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #444;
+}
+
+.userlist ul li:last-child {
+  border-bottom: none;
+}
+
+/*
